@@ -1,14 +1,14 @@
-namespace os2
+п»їnamespace os2
 {
-    public class Команда
+    public class РљРѕРјР°РЅРґР°
     {
-        public Команда(string коп, int а)
+        public РљРѕРјР°РЅРґР°(string РєРѕРї, int Р°)
         {
-            КОП = коп;
-            А = а;
+            РљРћРџ = РєРѕРї;
+            Рђ = Р°;
         }
 
-        public string КОП { get; set; }
-        public int А { get; set; }
+        public string РљРћРџ { get; set; }
+        public int Рђ { get; set; }
     }
 }

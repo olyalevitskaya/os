@@ -1,44 +1,44 @@
-using System;
+п»їusing System;
 
 namespace os2
 {
-    public class АЛУ
+    public class РђР›РЈ
     {
-        private readonly МВЫБ мвыб;
-        private readonly РОН рон;
-        private readonly Сигналы сигналы;
+        private readonly РњР’Р«Р‘ РјРІС‹Р±;
+        private readonly Р РћРќ СЂРѕРЅ;
+        private readonly РЎРёРіРЅР°Р»С‹ СЃРёРіРЅР°Р»С‹;
 
-        public АЛУ(РОН рон, МВЫБ мвыб, Сигналы сигналы)
+        public РђР›РЈ(Р РћРќ СЂРѕРЅ, РњР’Р«Р‘ РјРІС‹Р±, РЎРёРіРЅР°Р»С‹ СЃРёРіРЅР°Р»С‹)
         {
-            this.рон = рон;
-            this.мвыб = мвыб;
-            this.сигналы = сигналы;
+            this.СЂРѕРЅ = СЂРѕРЅ;
+            this.РјРІС‹Р± = РјРІС‹Р±;
+            this.СЃРёРіРЅР°Р»С‹ = СЃРёРіРЅР°Р»С‹;
         }
 
-        public int РЕЗ1
+        public int Р Р•Р—1
         {
             get
             {
-                switch (сигналы.ОП)
+                switch (СЃРёРіРЅР°Р»С‹.РћРџ)
                 {
                     case 0:
-                        return рон.СУМ;
+                        return СЂРѕРЅ.РЎРЈРњ;
                     case 1:
-                        return мвыб.Выход;
+                        return РјРІС‹Р±.Р’С‹С…РѕРґ;
                     case 2:
-                        return рон.СУМ + мвыб.Выход;
+                        return СЂРѕРЅ.РЎРЈРњ + РјРІС‹Р±.Р’С‹С…РѕРґ;
                     case 3:
-                        return рон.СУМ - мвыб.Выход;
+                        return СЂРѕРЅ.РЎРЈРњ - РјРІС‹Р±.Р’С‹С…РѕРґ;
                 }
                 throw new Exception();
             }
         }
 
-        public string ПР
+        public string РџР 
         {
             get
             {
-                switch (сигналы.ОП)
+                switch (СЃРёРіРЅР°Р»С‹.РћРџ)
                 {
                     case 0:
                         return "0x";

@@ -1,11 +1,11 @@
-namespace os2
+Ôªønamespace os2
 {
-    public class —Ë„Ì‡Î˚
+    public class –°–∏–≥–Ω–∞–ª—ã
     {
-        public bool ‘ { get; set; }
-        public bool » { get; set; }
-        public int œ { get; set; }
-        public int Œœ { get; set; }
-        public bool œ≈–≈’ { get; set; }
+        public bool –§ { get; set; }
+        public bool –ò { get; set; }
+        public int –ü { get; set; }
+        public int –û–ü { get; set; }
+        public bool –ü–ï–†–ï–• { get; set; }
     }
 }

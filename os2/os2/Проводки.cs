@@ -1,49 +1,49 @@
-namespace os2
+п»їnamespace os2
 {
-    public class Проводки
+    public class РџСЂРѕРІРѕРґРєРё
     {
-        private readonly РЕГКОМ регком;
-        private readonly Сигналы сигналы;
+        private readonly Р Р•Р“РљРћРњ СЂРµРіРєРѕРј;
+        private readonly РЎРёРіРЅР°Р»С‹ СЃРёРіРЅР°Р»С‹;
 
-        public Проводки(Сигналы сигналы, РЕГКОМ регком)
+        public РџСЂРѕРІРѕРґРєРё(РЎРёРіРЅР°Р»С‹ СЃРёРіРЅР°Р»С‹, Р Р•Р“РљРћРњ СЂРµРіРєРѕРј)
         {
-            this.сигналы = сигналы;
-            this.регком = регком;
+            this.СЃРёРіРЅР°Р»С‹ = СЃРёРіРЅР°Р»С‹;
+            this.СЂРµРіРєРѕРј = СЂРµРіРєРѕРј;
         }
 
-        public bool ЗАПП
+        public bool Р—РђРџРџ
         {
-            get { return сигналы.П == 0; }
+            get { return СЃРёРіРЅР°Р»С‹.Рџ == 0; }
         }
 
-        public bool ЗАМ1
+        public bool Р—РђРњ1
         {
-            get { return сигналы.П == 1; }
+            get { return СЃРёРіРЅР°Р»С‹.Рџ == 1; }
         }
 
-        public bool ЗАМ2
+        public bool Р—РђРњ2
         {
-            get { return сигналы.П != 3; }
+            get { return СЃРёРіРЅР°Р»С‹.Рџ != 3; }
         }
 
-        public bool ВЗАП1
+        public bool Р’Р—РђРџ1
         {
-            get { return сигналы.П == 3; }
+            get { return СЃРёРіРЅР°Р»С‹.Рџ == 3; }
         }
 
-        public bool ВЫБ
+        public bool Р’Р«Р‘
         {
-            get { return сигналы.И; }
+            get { return СЃРёРіРЅР°Р»С‹.Р; }
         }
 
-        public bool ЧИСТ
+        public bool Р§РРЎРў
         {
-            get { return !(сигналы.П == 2 || сигналы.П == 3); }
+            get { return !(СЃРёРіРЅР°Р»С‹.Рџ == 2 || СЃРёРіРЅР°Р»С‹.Рџ == 3); }
         }
 
-        public bool ПУСК
+        public bool РџРЈРЎРљ
         {
-            get { return регком.КОП != "FF"; }
+            get { return СЂРµРіРєРѕРј.РљРћРџ != "FF"; }
         }
     }
 }

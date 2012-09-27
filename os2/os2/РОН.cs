@@ -1,42 +1,42 @@
-namespace os2
+п»їnamespace os2
 {
-    public class РОН
+    public class Р РћРќ
     {
-        private АЛУ алу;
-        private readonly Проводки проводки;
-        private string пр;
-        private int сум;
+        private РђР›РЈ Р°Р»Сѓ;
+        private readonly РџСЂРѕРІРѕРґРєРё РїСЂРѕРІРѕРґРєРё;
+        private string РїСЂ;
+        private int СЃСѓРј;
 
-        public РОН(Проводки проводки)
+        public Р РћРќ(РџСЂРѕРІРѕРґРєРё РїСЂРѕРІРѕРґРєРё)
         {
-            сум = 0;
-            пр = "";
-            this.проводки = проводки;
+            СЃСѓРј = 0;
+            РїСЂ = "";
+            this.РїСЂРѕРІРѕРґРєРё = РїСЂРѕРІРѕРґРєРё;
         }
 
-        public int СУМ
+        public int РЎРЈРњ
         {
             get
             {
-                if (проводки.ЗАМ1)
-                    сум = алу.РЕЗ1;
-                return сум;
+                if (РїСЂРѕРІРѕРґРєРё.Р—РђРњ1)
+                    СЃСѓРј = Р°Р»Сѓ.Р Р•Р—1;
+                return СЃСѓРј;
             }
         }
 
-        public string ПР
+        public string РџР 
         {
             get
             {
-                if (проводки.ЗАМ1)
-                    пр = алу.ПР;
-                return пр;
+                if (РїСЂРѕРІРѕРґРєРё.Р—РђРњ1)
+                    РїСЂ = Р°Р»Сѓ.РџР ;
+                return РїСЂ;
             }
         }
 
-        public void Инициализируйся(АЛУ алу)
+        public void РРЅРёС†РёР°Р»РёР·РёСЂСѓР№СЃСЏ(РђР›РЈ Р°Р»Сѓ)
         {
-            this.алу = алу;
+            this.Р°Р»Сѓ = Р°Р»Сѓ;
         }
     }
 }

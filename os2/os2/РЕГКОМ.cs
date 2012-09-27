@@ -1,22 +1,22 @@
-namespace os2
+п»їnamespace os2
 {
-    public class РЕГКОМ
+    public class Р Р•Р“РљРћРњ
     {
-        private Память память;
+        private РџР°РјСЏС‚СЊ РїР°РјСЏС‚СЊ;
 
-        public string КОП
+        public string РљРћРџ
         {
-            get { return память.КОМ.Split(' ')[0]; }
+            get { return РїР°РјСЏС‚СЊ.РљРћРњ.Split(' ')[0]; }
         }
 
-        public int А
+        public int Рђ
         {
-            get { return int.Parse(память.КОМ.Split(' ')[1]); }
+            get { return int.Parse(РїР°РјСЏС‚СЊ.РљРћРњ.Split(' ')[1]); }
         }
 
-        public void Инициализируйся(Память память)
+        public void РРЅРёС†РёР°Р»РёР·РёСЂСѓР№СЃСЏ(РџР°РјСЏС‚СЊ РїР°РјСЏС‚СЊ)
         {
-            this.память = память;
+            this.РїР°РјСЏС‚СЊ = РїР°РјСЏС‚СЊ;
         }
     }
 }

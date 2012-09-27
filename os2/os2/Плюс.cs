@@ -1,19 +1,19 @@
-namespace os2
+п»їnamespace os2
 {
-    public class Плюс
+    public class РџР»СЋСЃ
     {
-        private readonly ИР ир;
-        private readonly РЕГКОМ регком;
+        private readonly РР  РёСЂ;
+        private readonly Р Р•Р“РљРћРњ СЂРµРіРєРѕРј;
 
-        public Плюс(ИР ир, РЕГКОМ регком)
+        public РџР»СЋСЃ(РР  РёСЂ, Р Р•Р“РљРћРњ СЂРµРіРєРѕРј)
         {
-            this.ир = ир;
-            this.регком = регком;
+            this.РёСЂ = РёСЂ;
+            this.СЂРµРіРєРѕРј = СЂРµРіРєРѕРј;
         }
 
-        public int ИА
+        public int РРђ
         {
-            get { return ир.ИНД + регком.А; }
+            get { return РёСЂ.РРќР” + СЂРµРіРєРѕРј.Рђ; }
         }
     }
 }

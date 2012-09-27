@@ -1,19 +1,19 @@
-namespace os2
+п»їnamespace os2
 {
-    public class МЧИСТ
+    public class РњР§РРЎРў
     {
-        private readonly АЛУ алу;
-        private readonly Проводки проводки;
+        private readonly РђР›РЈ Р°Р»Сѓ;
+        private readonly РџСЂРѕРІРѕРґРєРё РїСЂРѕРІРѕРґРєРё;
 
-        public МЧИСТ(АЛУ алу, Проводки проводки)
+        public РњР§РРЎРў(РђР›РЈ Р°Р»Сѓ, РџСЂРѕРІРѕРґРєРё РїСЂРѕРІРѕРґРєРё)
         {
-            this.алу = алу;
-            this.проводки = проводки;
+            this.Р°Р»Сѓ = Р°Р»Сѓ;
+            this.РїСЂРѕРІРѕРґРєРё = РїСЂРѕРІРѕРґРєРё;
         }
 
-        public int Выход
+        public int Р’С‹С…РѕРґ
         {
-            get { return проводки.ЧИСТ ? 0 : алу.РЕЗ1; }
+            get { return РїСЂРѕРІРѕРґРєРё.Р§РРЎРў ? 0 : Р°Р»Сѓ.Р Р•Р—1; }
         }
     }
 }

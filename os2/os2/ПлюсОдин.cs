@@ -1,17 +1,17 @@
-namespace os2
+п»їnamespace os2
 {
-    public class ПлюсОдин
+    public class РџР»СЋСЃРћРґРёРЅ
     {
-        private readonly УККОМ укком;
+        private readonly РЈРљРљРћРњ СѓРєРєРѕРј;
 
-        public ПлюсОдин(УККОМ укком)
+        public РџР»СЋСЃРћРґРёРЅ(РЈРљРљРћРњ СѓРєРєРѕРј)
         {
-            this.укком = укком;
+            this.СѓРєРєРѕРј = СѓРєРєРѕРј;
         }
 
-        public int Выход()
+        public int Р’С‹С…РѕРґ()
         {
-            return укком.АДРКОМ + 1;
+            return СѓРєРєРѕРј.РђР”Р РљРћРњ + 1;
         }
     }
 }
